@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/f0b4d212f8.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="vendors/fonts/icons-styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Lora|Satisfy:100,300,400,700,900' rel='stylesheet' type='text/css'>
+
+
+	<title>Hospital Management System</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="vendors/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="vendors/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="vendors/favicon/favicon-16x16.png">
+	<link rel="manifest" href="vendors/favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav class="main-nav">
+            <i class="fas fa-hospital-alt main-nav__big-icon" ></i>
+            <ul class="main-nav__nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="#home">Dashboard</a></li>
+                    <li><a href="#about">Dr.____ <i class="far fa-address-card"></i></a></li>
+                   
+            </ul>
+        </nav>
+         
+
+        <div class="header__text-box">
+            <img src="img/14.gif" class="header__icon header__img"></img>
+            <h1 class="heading-primary--1">
+                <span class="heading-primary--main heading-primary--main--1">
+                    Patient's Reports
+                </span>  
+            </h1>
+            <div class="container" style="z-index: 1212;">
+                <div class="search_wrap search_wrap_1">
+                    <div class="search_box">
+                        <div class="sbtn sbtn-common1 hash">
+                            <i class="fas fa-search "></i>
+                        </div>
+                        <input type="text" class="input" id="search" placeholder="Name of Patient" onkeyup="searchbar()">
+                        <label for="search" class="form__label">Name of Patient</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+    </header>
+    <div class="patient-section js--login-section">
+		<h2 class="heading-main">
+			<div class="u-align-center u-margin-bottom-big">
+				Patients
+			</div>
+		</h2>
+
+		<div class="row" id="one">
+			<div class="col-1-of-3" id="two">
+				<div class="plan" id="three">
+					<div class="plan__side plan__side--front" id="four">
+						<div class="plan__image plan__image--1">
+							&nbsp;
+						</div>
+						<h4 class="plan__heading plan__heading--1" id="five"> Patient name1
+						</h4>
+						<div class="plan__bullets">
+							<ul>
+								<li>Heart rate  <i class="fas fa-heartbeat"></i>: 90</li>
+                                <li>Blood Pressure  : Normal</li>
+                                <li>Corona  : Negative</li>
+                                <li>Diabetes  :  Not-deteced</li>
+							</ul>
+						</div> 
+					</div>
+					<div class="plan__side plan__side--back plan__side--back-1"> 
+						<div class="plan__button">
+							<div class="plan__report-box">
+								<p class="plan__report-value">Brief Report<br/></p>
+								<p class="plan__report-duration">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    llamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<a href="#" class="sbtn sbtn-ghost">Detailed Report<i class="fas fa-clipboard-list"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-1-of-3">
+				<div class="plan">
+					<div class="plan__side plan__side--front">
+						<div class="plan__image plan__image--2">
+							&nbsp;
+						</div>
+						<h4 class="plan__heading plan__heading--2"> Patient name2
+						</h4>
+						<div class="plan__bullets">
+                			<ul>
+								<li>Heart rate  <i class="fas fa-heartbeat"></i>: 90</li>
+                                <li>Blood Pressure  : Normal</li>
+                                <li>Corona  : Negative</li>
+                                <li>Diabetes  :  Not-deteced</li>
+							</ul>
+						</div> 
+					</div>
+					<div class="plan__side plan__side--back plan__side--back-2"> 
+						<div class="plan__button">
+							<div class="plan__report-box">
+								<p class="plan__report-value">Brief Report<br/></p>
+								<p class="plan__report-duration">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    llamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<a href="#" class="sbtn sbtn-ghost">Detailed Report</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-1-of-3">
+				<div class="plan">
+					<div class="plan__side plan__side--front">
+						<div class="plan__image plan__image--3">
+							&nbsp;
+						</div>
+						<h4 class="plan__heading plan__heading--3"> Patient name3
+						</h4>
+						<div class="plan__bullets">
+                			<ul>
+								<li>Heart rate  <i class="fas fa-heartbeat"></i>: 90</li>
+                                <li>Blood Pressure  : Normal</li>
+                                <li>Corona  : Negative</li>
+                                <li>Diabetes  :  Not-deteced</li>
+							</ul>
+						</div> 
+					</div>
+					<div class="plan__side plan__side--back plan__side--back-3"> 
+						<div class="plan__button">
+							<div class="plan__report-box">
+								<p class="plan__report-value">Brief Report<br/></p>
+								<p class="plan__report-duration">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    llamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<a href="#" class="sbtn sbtn-ghost">Detailed Report</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+        <div class="row">
+			<div class="col-1-of-3">
+				<div class="plan">
+					<div class="plan__side plan__side--front">
+						<div class="plan__image plan__image--1">
+							&nbsp;
+						</div>
+						<h4 class="plan__heading plan__heading--1"> Patient name4
+						</h4>
+						<div class="plan__bullets">
+		                	<ul>
+								<li>Heart rate  <i class="fas fa-heartbeat"></i>: 90</li>
+                                <li>Blood Pressure  : Normal</li>
+                                <li>Corona  : Negative</li>
+                                <li>Diabetes  :  Not-deteced</li>
+							</ul>
+						</div> 
+					</div>
+					<div class="plan__side plan__side--back plan__side--back-1"> 
+						<div class="plan__button">
+							<div class="plan__report-box">
+								<p class="plan__report-value">Brief Report<br/></p>
+								<p class="plan__report-duration">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    llamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<a href="#" class="sbtn sbtn-ghost">Detailed Report</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-1-of-3">
+				<div class="plan">
+					<div class="plan__side plan__side--front">
+						<div class="plan__image plan__image--2">
+							&nbsp;
+						</div>
+						<h4 class="plan__heading plan__heading--2"> Patient name5
+						</h4>
+						<div class="plan__bullets">
+                			<ul>
+								<li>Heart rate  <i class="fas fa-heartbeat"></i>: 90</li>
+                                <li>Blood Pressure  : Normal</li>
+                                <li>Corona  : Negative</li>
+                                <li>Diabetes  :  Not-deteced</li>
+							</ul>
+						</div> 
+					</div>
+					<div class="plan__side plan__side--back plan__side--back-2"> 
+						<div class="plan__button">
+							<div class="plan__report-box">
+								<p class="plan__report-value">Brief Report<br/></p>
+								<p class="plan__report-duration">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    llamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<a href="#" class="sbtn sbtn-ghost">Detailed Report</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-1-of-3">
+				<div class="plan">
+					<div class="plan__side plan__side--front">
+						<div class="plan__image plan__image--3">
+							&nbsp;
+						</div>
+						<h4 class="plan__heading plan__heading--3"> Patient name6
+						</h4>
+						<div class="plan__bullets">
+		                	<ul>
+								<li>Heart rate  <i class="fas fa-heartbeat"></i>: 90</li>
+                                <li>Blood Pressure  : Normal</li>
+                                <li>Corona  : Negative</li>
+                                <li>Diabetes  :  Not-deteced</li>
+							</ul>
+						</div> 
+					</div>
+					<div class="plan__side plan__side--back plan__side--back-3"> 
+						<div class="plan__button">
+							<div class="plan__report-box">
+								<p class="plan__report-value">Brief Report<br/></p>
+								<p class="plan__report-duration">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                                    llamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                                    tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<a href="#" class="sbtn sbtn-ghost">Detailed Report</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+<script src="script.js"></script>
+<script>
+    const searchbar = () =>{
+        let filter = document.getElementById('search').value.toUppercase();
+        let div = document.getElementById('one');
+
+    }
+</script>
+ 
+
+</body>
+</html>

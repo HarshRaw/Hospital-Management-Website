@@ -1,0 +1,34 @@
+.doctor-login{
+    margin:2.2rem 2rem ;
+    padding:1.5rem;
+    background-color: #D6EAF8;
+    
+    
+    &__heading{
+        font-size: 400%;
+        color: $blue;
+        padding-top: 7rem;
+        padding-bottom: 5rem;
+        border-bottom: .2rem solid #f7f7f7;
+        &--1,&--2{
+            color: $grey-dark-2;
+        }
+    }
+    &__img{
+        width:80%;
+        height: 30rem;
+        margin: 0 10rem;
+        &--1{
+            margin: 2rem;
+        }
+    }
+
+
+
+}
+
+
+.staff-login{
+    background-color: $grey-light-2;
+    
+}

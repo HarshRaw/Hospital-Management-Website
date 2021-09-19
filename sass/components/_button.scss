@@ -1,0 +1,130 @@
+.btn{
+    font-size: 1.5rem;
+    color: $primary-dark-1;
+    font-weight: 800;
+    transition: all .2s;
+    i{
+        color: #fff;
+    }
+
+    &:link,
+    &:visited{
+        text-decoration:none;
+        padding:10px 30px;
+        border-radius:200px;
+        display:inline-block;
+    }
+    &-ghost:link,
+    &-ghost:visited{
+        border:2px solid $primary-dark-1
+    }
+    &-ghost:active,
+    &-ghost:hover{
+        background-color:$primary-dark-1;
+        color:#fff;
+
+    }
+    &-ghost:hover{
+        transform:translateY(-3px);
+		box-shadow:0 1rem 2rem  rgba($black, .5);
+    }
+    &-ghost:active{
+        transform:translateY(-1px);
+		box-shadow:0 .5rem 1rem rgba($black, .5);
+
+    }
+       
+
+}
+
+.sbtn{
+    font-size: 1.5rem;
+    background-color: $white;
+    color: $blue;
+    font-weight: 600;
+    transition: all .2s;
+
+    
+
+
+    &:link,
+    &:visited{
+        text-decoration:none;
+        padding:10px 30px;
+        border-radius:200px;
+        display:inline-block;
+    }
+
+    &-ghost:link,
+    &-ghost:visited{
+        border:2px solid white
+    }
+    &-ghost:active,
+    &-ghost:hover{
+        background-color:$secondary-1-dark;
+        color:$white;
+        border:.1rem solid $white;
+
+    }
+    &-ghost:hover{
+        transform:translateY(-3px);
+		box-shadow:0 1rem 2rem  rgba($black, .3);
+    }
+    &-ghost:active{
+        transform:translateY(-1px);
+		box-shadow:0 .5rem 1rem rgba($white, .5);
+
+    }
+       
+
+}
+
+.btn1{
+    font-size: 1.5rem;
+    color: $white;
+    font-weight: 800;
+    transition: all .2s;
+    border: 1px solid $white;
+    border-radius: .4rem;
+    font-size: 1.7rem;
+    
+
+    &:link,
+    &:visited{
+        text-decoration:none;
+        padding:10px 30px;
+        border-radius:200px;
+        display:inline-block;
+        box-shadow: 0 2rem 4rem rgba(black,0.4);
+    }
+    &-ghost2:link,
+    &-ghost2:visited{
+        border:2px solid $white
+    }
+    &-ghost2:active,
+    &-ghost2:hover{
+        background-color:$tertiary-light;
+        color:#fff;
+
+    }
+    &-ghost2:hover{
+        transform:translateY(-3px);
+		box-shadow:0 1rem 2rem  rgba($black, .5);
+    }
+    &-ghost2:active{
+        transform:translateY(-1px);
+		box-shadow:0 .5rem 1rem rgba($black, .5);
+
+    }
+       
+
+}
+
+.hash:hover{
+    i{
+        color: white;
+
+    }
+    
+    background-color: aquamarine;
+}

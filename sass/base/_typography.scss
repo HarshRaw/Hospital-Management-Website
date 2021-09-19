@@ -1,0 +1,117 @@
+.heading-primary{
+    color: $white;
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    cursor: default;
+    transition: all 1sec;
+    
+
+
+    &--main{
+        font-size: 7rem;
+        text-transform: uppercase;
+        
+        letter-spacing: .2rem;
+        display: block;
+        &--1{
+            color: $white;
+            margin-bottom: 2.5rem;
+            font-weight: 600;
+            font-size: 5rem;
+    
+        }
+    }
+    &--sub{
+        color: $blue;
+        display: block;
+        font-size: 2.6rem;
+        background-color: $white;
+        box-shadow: 0 6px 20px 1px rgba($black, .2);
+        position:absolute;
+        margin-left: 18rem;
+        
+        width: 50%;
+        ul li{
+            position: relative;
+            list-style: none;
+
+            transition: all 1s;
+            
+            
+            i {
+                opacity: 0.4;
+                transform: rotateX(-180deg);
+                transition: opacity 1s;
+            }       
+        }
+
+        ul li a{
+            display: block;
+            color: $blue;
+            text-decoration: none;
+            line-height: 4rem;
+        }
+        ul li ul{
+            font-size: 2.6rem;
+            background-color: $white;
+            opacity: 0;
+            position: absolute;
+            border-bottom: 1px solid $blue;  
+            transform: translateY(-5rem);
+            z-index: -1;
+            transition: transform .5s;
+        }
+        ul li:hover i{
+            transform: rotateX(0deg);
+            opacity: 1;
+        }
+
+        ul li:hover ul
+        {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        ul li ul li{
+            width: 33.6rem;
+            
+            border-bottom: 1px solid $grey-light-1;
+            
+        }
+        ul li ul li a{
+            transition: all .2s;
+        }
+        ul li ul li a:hover{
+            background-color: $blue;
+            color: $white;
+        }
+        ul li ul li a:hover{
+            outline:none;
+		    transform:translateY(-2px);
+		    box-shadow:0 1rem 2rem  rgba($black, .5);
+        }
+        ul li ul li a:active{
+            transform:translateY(-1px);
+		    box-shadow:0 .5rem 1rem rgba($black, .5);
+        }
+        
+
+    }
+
+
+}
+.heading-main{
+    font-size: 4rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 5rem;
+    margin-bottom:7rem ;
+    color: $secondary-1-dark;
+    transition: all .3s;
+    border-bottom: 2px solid $secondary-1-dark;
+    &:hover{
+        transform:  scale(1.05);
+        text-shadow: 5rem 2rem 2rem rgba($color: #000000, $alpha: 0.2);
+    }
+}

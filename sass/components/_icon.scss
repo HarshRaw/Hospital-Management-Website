@@ -1,0 +1,33 @@
+.plan_1{
+    margin-top: 15rem;
+    padding-left: 11rem;
+    transition: transform 0.2;
+    &-icon{
+        transition: all 0.4s;
+    }
+
+    &-icon:link,
+    &-icon:visited{
+        transform: translateY(0rem);
+        
+    }
+    &-icon:hover
+    {
+        transform: translateY(-2rem);
+        
+        
+
+
+    }
+    &-icon:active{
+        transform: translateY(-1rem);
+
+    }
+
+    i{
+        color: $blue;
+        font-size: 15rem;
+        font-weight: 700;
+
+    }
+}

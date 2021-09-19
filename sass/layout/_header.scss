@@ -1,0 +1,32 @@
+.header{
+    height: 95vh;
+    position: relative;
+    background-color: $blue;
+    background-attachment: fixed;
+
+    
+    &__text-box{
+        position: absolute;
+        top: 55%;
+        @include center-object;
+    }
+    &__btn-box{
+        position: absolute;
+        top: 80%;
+        @include center-object;
+        
+    }
+    &__icon{
+        font-size: 600%;
+        color: white;
+        text-shadow: .5rem 1rem 4rem rgba($black,.7);
+    }
+    &__img{
+        width:25rem
+    }
+    &-staff{
+        height: 100vh;
+        margin-bottom: 15rem;
+    }
+    
+}

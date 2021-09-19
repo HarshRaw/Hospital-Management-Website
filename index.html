@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/f0b4d212f8.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="vendors/fonts/icons-styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Lora|Satisfy:100,300,400,700,900' rel='stylesheet' type='text/css'>
+
+
+	<title>Hospital Management System</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="vendors/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="vendors/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="vendors/favicon/favicon-16x16.png">
+	<link rel="manifest" href="vendors/favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <header class="header" id="home">
+        <nav class="main-nav">
+            <i class="fas fa-hospital-alt main-nav__big-icon" ></i>
+            <ul class="main-nav__nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="#about">About Us</a></li>
+            </ul>
+        </nav>
+         
+
+        <div class="header__text-box">
+            <i class="fas fa-laptop-medical header__icon"></i>
+            <h1 class="heading-primary">
+                <span class="heading-primary--main">
+                    Hospital Management
+                </span>
+                <div class="heading-primary--sub">
+                    <ul>
+                        <li>
+                            <a href="#">LOG-IN PORTAL  <i class="fas fa-chevron-circle-down" style="color: #1E90FF;" ></i></a> 
+                            <ul>
+                                <li>
+                                    <a href="#doctor-login" class="js--scroll-to-login" alt="Doctor-login">Doctor</a>
+                                </li>
+                                <li>
+                                    <a href="#admin-login" class="js--scroll-to-login" alt="Admin-login">Admin</a>
+                                </li>
+                                <li>
+                                    <a href="#staff-login" class="js--scroll-to-login" alt="Staff-login">Staff</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </h1>
+        </div>
+
+    </header>
+    <section class="doctor-login js--login-section" id="doctor-login">
+        <h2 class="doctor-login__heading doctor-login__heading--1"><div class="u-align-center">Doctor Login</div></h2>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="contact__form">
+					<form class="form" target="#">
+
+                        <div class="form__group">
+							<input type="text" class="form__input" id="name" placeholder="Dr." required>
+							<label for="name" class="form__label">Full Name*</label>
+						</div>
+						
+						<div class="form__group">
+							<input type="email" class="form__input" id="email" placeholder="Email Address" required>
+							<label for="email" class="form__label">Email Address*</label>
+						</div>
+                    
+						<div class="form__group">
+							<input type="password" class="form__input" id="password" placeholder="Password" required>
+							<label for="password" class="form__label">Password*</label>
+						</div>
+						<div class="form__group">
+							<a href="doctor.html" class="btn btn-ghost">Log-In <i class="fas fa-sign-in-alt"></i></a>
+						</div>
+					</form>
+				</div>
+                
+                
+
+            </div>
+            <div class="col-1-of-2">
+                
+                    <img class="doctor-login__img" alt="img1" src="img/13.gif">
+                    
+                
+                
+            </div>
+        </div>
+    </section>
+    <section class="doctor-login staff-login" id="staff-login">
+        <h2 class="doctor-login__heading staff-login__heading"><div class="u-align-center">Staff Login</div></h2>
+        <div class="row">
+
+
+            <div class="col-1-of-2">
+                
+                <img class="doctor-login__img doctor-login__img--1 " alt="img1" src="img/10.png">     
+            
+            </div>
+            <div class="col-1-of-2">
+                <div class="contact__form">
+					<form class="form" target="#">
+
+                        <div class="form__group">
+							<input type="text" class="form__input" id="name0" placeholder="Name" required>
+							<label for="name0" class="form__label">Full Name*</label>
+						</div>
+						
+						<div class="form__group">
+							<input type="email" class="form__input" id="email0" placeholder="Email Address" required>
+							<label for="email0" class="form__label">Email Address*</label>
+						</div>
+                    
+						<div class="form__group">
+							<input type="password" class="form__input" id="password0" placeholder="Password" required>
+							<label for="password0" class="form__label">Password*</label>
+						</div>
+						<div class="form__group u-align-right">
+							<a href="staff.html" class="btn btn-ghost ">Log-In <i class="fas fa-sign-in-alt"></i></a>
+						</div>
+					</form>
+				</div>
+                
+                
+
+            </div>
+
+        </div>
+    </section>
+    <section class="doctor-login js--contact" id="admin-login">
+        <h2 class="doctor-login__heading doctor-login__heading--2"><div class="u-align-center">Admin Login</div></h2>
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="contact__form">
+					<form class="form" target="#">
+
+                        <div class="form__group">
+							<input type="text" class="form__input" id="fullname1" placeholder="Name" required>
+							<label for="fullname1" class="form__label">Full Name*</label>
+						</div>
+						
+						<div class="form__group">
+							<input type="email" class="form__input" id="email1" placeholder="Email Address" required>
+							<label for="email1" class="form__label">Email Address*</label>
+						</div>
+                    
+						<div class="form__group">
+							<input type="password" class="form__input" id="password1" placeholder="Password" required>
+							<label for="password1" class="form__label">Password*</label>
+						</div>
+						<div class="form__group ">
+							<a href="admin.html" class="btn btn-ghost">Log-In <i class="fas fa-sign-in-alt"></i></a>
+						</div>
+					</form>
+				</div>
+                
+                
+
+            </div>
+            <div class="col-1-of-2">
+                
+                    <img class="doctor-login__img" alt="img1" src="img/12.gif">
+                    
+                
+                
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
+<script src="script.js"></script>
+ 
+
+</body>
+</html>

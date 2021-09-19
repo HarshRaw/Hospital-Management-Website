@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/f0b4d212f8.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="vendors/fonts/icons-styles.css">
+	<link href='http://fonts.googleapis.com/css?family=Lora|Satisfy:100,300,400,700,900' rel='stylesheet' type='text/css'>
+
+
+	<title>Hospital Management System</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="vendors/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="vendors/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="vendors/favicon/favicon-16x16.png">
+	<link rel="manifest" href="vendors/favicon/site.webmanifest">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+
+<body>
+    <header class="header header-staff" id="home">
+        <nav class="main-nav">
+            <i class="fas fa-hospital-alt main-nav__big-icon" ></i>
+            <ul class="main-nav__nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                    <li><a href="#home">Dashboard</a></li>
+                    <li><a href="#about">xxnamexx <i class="far fa-address-card"></i></a></li>
+            </ul>
+        </nav>
+         
+
+        <div class="header__text-box">
+            <i class="fas fa-hospital-user header__icon"></i>
+            <h1 class="heading-primary--1">
+                <span class="heading-primary--main heading-primary--main--1" style="margin:2rem 0;">
+                    Registration Portal
+                </span>
+                
+            </h1>
+            <div class="down">
+                <a href="#register"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </div>
+
+    </header>
+    
+        
+
+        
+    <section class="registration js--login-section" id="register">
+        
+           <div class="scontainer">
+             <form action="">
+               
+               <div class="desc">Mandatory specifications</div><br><br>
+        
+               <span style="margin-left:7.3vw"></span> (A) Name<sup style="color:rgb(255, 8, 8)"> * </sup> <input style="text-align:center;" type="text" name="" id="" placeholder="(In English)"
+                 required>&nbsp;&nbsp;&nbsp;<input type="text"  style="text-align:center;" name="" id="" placeholder="(In Regional)" required><button id="key" ><i class="fa fa-keyboard-o"></i></button><br><br>
+        
+                 <span style="margin-left:7.3vw"></span>(B) Surname (if any)<sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" name="" id="" style="text-align:center;" placeholder="(In English)" required>&nbsp;&nbsp;&nbsp;<input style="text-align:center;" type="text" name=""
+                 id="" placeholder="(In Regional)" required><button  id="key"  ><i class="fa fa-keyboard-o"></i></button><br><br>
+        
+                 <span style="margin-left:7.3vw"></span>(C) Name of the applicant's relative
+               <sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" name="" id="" style="text-align:center;" placeholder="(In English)" required>&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" style="text-align:center;" placeholder="(In Regional)"
+                   required><button id="key"><i class="fa fa-keyboard-o"></i></button><br><br><span style="margin-left:7.3vw"></span>
+        
+                   Nickname of the applicant's relative<sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" style="text-align:center;" name="" id="" placeholder="(In English)"
+                   required>&nbsp;&nbsp;&nbsp;<input type="text" style="text-align:center;" name="" id="" placeholder="(In Regional)" required><button id="key"><i class="fa fa-keyboard-o"></i></button><br><br>
+        
+                   <span style="margin-left:7.3vw"></span>(D)
+                 Type of the relationship<sup style="color:rgb(255, 8, 8)"> * </sup> <select id="sel" name="Select"><option value="null">Select</option></select><br><br>
+        
+                 <ul class="radio">
+                   <li><span style="margin-left:7.3vw"></span><input type="radio" name="select"  checked="checked">(E) Age [on January 1 of the current calender]<sup style="color:rgb(255, 8, 8)"> * </sup>
+                     <input type="text" value="&nbsp;2019" readonly></input>
+                     <select id="sel" name="Select" ><option value="null">Year</option></select>
+                     <select id="sel" name="Select"><option value="null">Month</option></select><br><br>
+                   </li>
+                   <p style="font-size:20px; margin-left:7.3vw;" >Or</p><br>
+                   <li><span style="margin-left:7.3vw"></span><input type="radio" name="select" id=""> (F) Date of birth (in the form of day/ month/ year) <input type="date" name="" id="">
+                     <br><span style="margin-left:7.3vw"></span>(if known)<sup style="color:rgb(255, 8, 8)"> * </sup>
+                   </li>
+                 </ul><br><br>
+        
+                 <span style="margin-left:7.3vw"></span>(G) Applicant's gender<sup style="color:rgb(255, 8, 8)"> * </sup><select id="sel"  name="" ><option>Select</option><option>Male</option><option>Female</option></select><br><br>
+                 <div class="desc">
+                   (H) Current address, whose applicant is nominally resident
+                 </div><br><br>
+                 <span style="margin-left:7.3vw"></span>House no.
+                 <sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" style="text-align:center;" name="" id="" placeholder="(In English)" required>&nbsp;&nbsp;&nbsp;<input style="text-align:center;" type="text" name="" id="" placeholder="(In Regional)"
+                   required><button id="key"><i class="fa fa-keyboard-o"></i></button><br><br>
+        
+                   <span style="margin-left:7.3vw"></span>Street / area / location
+                 <sup style="color:rgb(255, 8, 8)"> * </sup>
+                 <input type="text" name="" id="" style="text-align:center;" placeholder="(In English)" required>&nbsp;&nbsp;&nbsp;<input style="text-align:center;" type="text" name="" id="" placeholder="(In Regional)"
+                   required><button id="key"><i class="fa fa-keyboard-o"></i></button><br><br>
+        
+                   <span style="margin-left:7.3vw"></span>City / Village: <sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" name="" id="" style="text-align:center;" placeholder="(In English)"
+                   required><input type="text" name="" id="" style="text-align:center;" placeholder="(In Regional)"><button id="key"><i class="fa fa-keyboard-o"></i></button><br><br>
+        
+                  <span style="margin-left:100px"></span>Post Office:
+                 <sup style="color:rgb(255, 8, 8)"> * </sup> <input type="text" name="" id="" style="text-align:center;" placeholder="(In English)" required>&nbsp;&nbsp;&nbsp;
+                 <input type="text" name="" id="" style="text-align:center;" placeholder="(In Regional)"><button id="key"><i class="fa fa-keyboard-o"></i></button><br><br>
+        
+                 <span style="margin-left:7.3vw"></span>Pin Code <sup style="color:rgb(255, 8, 8)"> * </sup><input type="text" name="" id="" required ><br><br>
+                 <span style="margin-left:7.3vw"></span>State / Union Territory <sup style="color:rgb(255, 8, 8)"> * </sup><select id="sel"
+                   name="" ><option>Select</option></select><br><br>
+        
+                   <span style="margin-left:7.3vw"></span>District <sup style="color:rgb(255, 8, 8)"> * </sup><select id="sel" name="" ><option>Select</option></select><br><br>
+                 <hr><br>
+        
+                 <span style="margin-left:7.3vw"></span>Family / Neighbour Epic No. <input type="text" name="" id="" required><br><br>
+                 <hr><br>
+        
+        
+                 <div class="desc">Optional specialties</div><br><span style="margin-left:7.3vw"></span>(T) Disability (if any)<br><br>
+                 <fieldset><span style="margin-left:100px"></span>
+                   <input type="checkbox" name="" id="">Visual impairment &nbsp;
+                   <input type="checkbox" name="" id="">Speech and hearing impairment &nbsp;
+                   <input type="checkbox" name="" id="">Motion disabling &nbsp;
+                   <input type="checkbox" name="" id="">other &nbsp;
+                   <input type="text" required>
+                 </fieldset><br><span style="margin-left:7.3vw"></span>(Th) Email ID (optional) &nbsp; <input type="text" name="" id="" required><br><br><span style="margin-left:100px"></span>(D) mobile number (optional) &nbsp;
+                 <span>+91</span>
+                 <input type="text" name="input" required><br><br>
+        
+                 <div class="desc">
+                   Upload supporting documents (Supported formats .jpg, .png, .bmp, .jpeg) (max. 2MB)
+                   <span style="float:right;"><a href="">List of supported documents</a>&nbsp;&nbsp;&nbsp;</span>
+                 </div><br><br><span style="margin-left:100px"></span> Your photo<sup style="color:rgb(255, 8, 8)"> * </sup><br>
+                 <span style="margin-left:7.3vw"></span><input style="border:1px solid darkgray; border-radius:4px;" type="file" name="" id="">
+                 <br><span style="margin-left:100px"></span> Age proof<sup style="color:rgb(255, 8, 8)"> * </sup><br>
+                 <span style="margin-left:7.3vw"></span><input style="border:1px solid darkgray; border-radius:4px;" type="file" name="" id="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="margin-left:7.3vw"></span> Document type<sup style="color:rgb(255, 8, 8)"> * </sup><select  name="" id="sel"><option>Select</option></select>
+                 <br><span style="margin-left:7.3vw"></span> Adress proof<sup style="color:rgb(255, 8, 8)"> * </sup><br>
+                 <span style="margin-left:7.3vw"></span><input style="border:1px solid darkgray; border-radius:4px;" type="file" name="" id="">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="margin-left:7.3vw"></span> Document type<sup style="color:rgb(255, 8, 8)"> * </sup><select  name="" id="sel"><option>Select</option></select>
+                 <br><br>
+        
+        
+                 <div class="desc">Declaration</div><br><br> I declare I declare that according to my best knowledge and belief <br> I am a citizen of India and of my birth; <br>
+                 <span style="margin-left:7.3vw"></span>City / Village:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"
+                   name="" id="" required><br><span style="margin-left:7.3vw"></span><br>
+        
+                   <span style="margin-left:7.3vw"></span>Select state
+                 <sup style="color:rgb(255, 8, 8)"> * </sup><select  name="" id="sel"><option>Select</option></select>&nbsp;&nbsp;&nbsp;&nbsp; District
+                 <sup style="color:rgb(255, 8, 8)"> * </sup>&nbsp;&nbsp;&nbsp;&nbsp;<select  name="" id="sel"><option>Select</option></select><br><br>
+        
+                 <span style="margin-left:7.3vw"></span>Date
+                 <sup style="color:rgb(255, 8, 8);"> *   </sup><input type="date" name="" id=""><br> (ii) I am a nominally resident in the address given in the above (date, month, year) above;
+                 <br><br> I have not applied to include my name in the electoral roll for any other constituency;<br><br>
+                 <ul class="radio">
+                   <li><span style="margin-left:7.3vh"></span><input type="radio" name="select" id="">(iv) My name has not been already included in the electoral roll for this or any other assembly / parliamentary constituency</li><br> <span style="margin-left:7.3vw"></span>
+                   <p style="font-size:20px; margin-left:7.3vw;" >Or</p><br>
+                     <li><span style="margin-left:7.3vh"></span><input type="radio" name="select" id="">My name would have been included in electoral rolls of the State's constituency, in which I was already residing in the address mentioned below, and if so, then
+                       I request that it be removed from that electoral roll. Go.</li>
+                 </ul><br>
+                 <hr><br><br><span style="margin-left:7.3vh"></span>Location
+                 <sup style="color:rgb(255, 8, 8)"> * </sup>&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;date <input type="date" name="" id=""><br><br>
+        
+                  I am afraid that the statement or declaration,
+                 which is false, to whom I know it or believe that it is false or I do not believe in being true, the People's Representation Act, 1950 (43 of 1950 ) Is punishable under section 31 <br><br>
+        
+                 <span style="margin-left:7.3vw"></span>Captcha <img src="img/cap.png" alt="" style="width: 150px;">&nbsp;
+                 <i class="fas fa-redo"></i> &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="" id="" required><br><br>
+        
+               </fieldset><div style="display:flex;  justify-content:center; align-content:center;">
+                 <input type="reset" class="success" value="Reset" style="margin-bottom:10px !important; font-weight: bold;"><input type="submit"  class="success" style="margin-bottom:10px !important; margin-left:8px; font-weight: bold;" class="btn btn-success" value="Submit">
+        </div>
+             </form>
+           </div>
+    </section>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>     
+    
+<script src="script.js"></script>
+
+ 
+
+</body>
+</html>
